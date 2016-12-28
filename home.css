@@ -1,0 +1,93 @@
+body{
+  height: auto;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header{
+  height: 80px;
+  width: 100%;
+  overflow: hidden;
+}
+
+header div img {
+  box-sizing: border-box;
+  padding:7px;
+  height: 80px;
+  width: 300px;
+}
+
+.header-img{
+  float: left;
+  width:30%;
+
+}
+.top-menu{
+  float: right;
+  width: 69%;
+}
+.top-menu ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    //background-color: #333333;
+    float: left;
+}
+
+
+.top-menu>ul>li{
+float:left;
+}
+
+.top-menu>ul>li>a{
+  box-sizing: border-box;
+  height: 80px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+
+.top-menu>ul>li>a:hover {
+color:blue;}
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+.top-corousel{
+  height: 400px;
+  width: 100%;
+  background-color: #112930;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.Major-works-division{
+  height: 350px;
+  width: 100%;
+  background-color: red;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+.our-works-division{
+  height: 400px;
+  width: 100%;
+}
+
+.bottom-corousel{
+  height: 100px;
+  background-color: green;
+}
+
+footer{
+  height: 80px;
+  width: 100%;
+  background-color: hotpink;
+}
